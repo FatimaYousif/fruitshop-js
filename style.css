@@ -1,0 +1,39 @@
+body
+{
+    background-image: url("final.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+    font-size: 1.5em;
+
+}
+.main
+{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 1em;
+}
+.mango
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #f8ca03;
+}
+h2
+{
+    color: #a33e22;   
+}

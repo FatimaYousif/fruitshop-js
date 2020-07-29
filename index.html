@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRUIT SHOP</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body style="text-align:center;">
+
+
+    <div class="main">
+   <input type="number" id="balance" placeholder="enter money">
+   <button onclick="input()">add</button>
+
+      <!-- mangoo eh-->
+      <div class="mango">
+          <h2>MANGO</h2>
+          <img src="productm.jpg" alt="">
+        <p>Rs 10 
+            <button onclick="add()">+</button>
+            <span id="items">0</span>
+            <button onclick="minus()">-</button>
+        </p>
+    </div>
+
+    <div class="total">
+        <p>balance: <span id="balance2" >0</span></p>
+        <p>total: <span id="total" >0</span></p>
+        <p>left: <span id="left" >0</span></p>
+    </div>
+</div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
